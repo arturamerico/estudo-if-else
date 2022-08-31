@@ -11,7 +11,7 @@ public class Main {
 		if (N < 0) {
 			System.out.println("NEGATIVO");
 		} else {
-			System.out.println("NAO NEGATIVO");
+			System.out.println("REPROVADO");
 		}
 
 		sc.close();
