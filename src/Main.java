@@ -6,12 +6,13 @@ public class Main {
 
 		Scanner sc = new Scanner(System.in);
 
-		int N = sc.nextInt();
+		int number = sc.nextInt();
+		String cachorro = "Artur";
 
-		if (N < 0) {
-			System.out.println("NEGATIVO");
+		if (number < 0) {
+			System.out.println(cachorro +  " NEGATIVO");
 		} else {
-			System.out.println("REPROVADO");
+			System.out.println(cachorro + " REPROVADO");
 		}
 
 		sc.close();
